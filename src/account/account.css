@@ -1,0 +1,221 @@
+.accountall{
+    width: 79%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    background: white;
+    padding: 35px;
+    min-height: 717px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ttt{
+    float: right;
+}
+
+.accountone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.inp1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #DADADA;
+    border-radius: 6px;
+}
+
+
+.accounttwo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+.account-title{
+    font-weight: 700;
+    font-size: 36px;
+    cursor: pointer;
+    color: #6E718B;
+}
+
+.accountall-input{
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+.account-all-img{
+    height: 16px;
+    width: 16px;
+}
+.account-all-img img{
+    width: 100%;
+    cursor: pointer;
+    height: 100%;
+}
+.accountall-input{
+    padding: 5px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3B3D50;
+
+}
+.inp1{
+    padding: 5px;
+    margin-top: 5px;
+}
+.account-all-input-div label{
+    cursor: pointer;
+    color: #3B3D50;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.account-all-input-div{
+    width: 45%;
+}
+.account-all-button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: auto;
+}
+.acoount-button-save{
+    color: white;
+    background: #A588E7;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 13px 60px;
+    /* margin-top: 360px; */
+    cursor: pointer;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border:1px solid #A588E7;
+}
+.account-button-censel{
+    color: #A588E7;
+    background: #EAE0FF;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 13px 60px;
+    /* margin-top: 360px; */
+    cursor: pointer;
+    border: 1px solid #bebbc4;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+
+/* @media screen and (max-width:740px){
+    .accountall{
+        width: 79%;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* background: white; */
+        /* width: 100%; */
+        /* padding: 35px; */
+        /* min-height: 717px; */
+        /* height: 100%;/ */
+        /* display: flex; */
+        /* flex-direction: column; */
+    /* } */
+/* } */
+
+
+
+/* @media screen and (max-width:740px){
+    .accountone{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+} */
+
+/* @media screen and (max-width:740px){
+    .accounttwo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+} */
+
+
+/* @media screen and (max-width:740px){
+    .account-title{
+        font-weight: 700;
+        font-size: 30px;
+        cursor: pointer;
+        color: #6E718B;
+        margin: 0 auto;
+    }
+} */
+
+/* @media screen and (max-width:740px){
+    .account-all-input-div{
+        width: 75%;
+        margin-top: 25px;
+    }
+} */
+
+/* @media screen and (max-width:740px){
+    .account-all-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: auto;
+    }
+} */ 
+
+@media screen and (max-width:1178px){
+    .accountall{
+        width: 74%;
+       
+    }
+}
+
+@media screen and (max-width:942px){
+    .accountall{
+        width: 72%;
+       /* padding: 20px; */
+    }
+    .account-all-input-div{
+        width: 42%;
+    }
+}
+
+@media screen and (max-width:873px){
+    .accountone, .accounttwo{
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .account-all-input-div{
+        width: 80%;
+        margin-top: 15px;
+    }
+    .accountall{
+        width: 69%;
+    }
+    .account-title-div{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width:740px){
+    .account-all-input-div{
+        width: 90%;
+    }
+}

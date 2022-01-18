@@ -1,0 +1,43 @@
+.paymentall{
+    min-height: 717px;
+    height: 100%;
+    width: 79%;
+    background: white;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.payment-title{
+    font-weight: 700;
+    font-size: 36px;
+    cursor: pointer;
+    color: #6E718B;
+}
+
+
+.payment-title2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 22px;
+    color: #676879;
+}
+
+.payment-title2-pro{
+    color: #A588E7;
+    padding-left: 10px;
+    padding-right: 16px;
+}
+
+.payment-title3{
+    font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+color: #66687a;
+padding-top: 39px;
+}
